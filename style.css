@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.center {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  padding: 30px;
+}
+
+.header__logo--signin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header--logo {
+  font-size: 24px;
+  color: black;
+  font-weight: 400;
+  border: 1px solid gray;
+  padding: 5px 10px;
+}
+
+.sign--in {
+  font-size: 18px;
+  background: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.nav--header {
+  margin-top: 10px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding: 10px 0;
+}
+
+.nav__header--lists {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav__header--list a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Web content */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.main-header {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #1a1a1a;
+}
+
+.author {
+  margin: 30px 0;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.author--socials {
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author--link {
+  text-decoration: none;
+  color: #1a1a1a;
+}
+
+.share {
+  border: 1px solid gray;
+  padding: 5px 9px;
+}
+
+.img {
+  height: 500px;
+}
+
+.passage{
+  margin-top: 30px;
+}
+
+.sub-heading {
+  color: #1a1a1a;
+}
+
+.more__info--container{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid gray;
+  padding: 15px 30px ;
+}
+
+.more--info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.iterative--lits {
+  line-height: 1.5;
+  list-style: disc;
+}
+
+.lists a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.footer {
+  width: 100%;
+  padding: 30px;
+}
+
+.footer--info {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.footer--list a {
+  text-decoration: none;
+  color: gray;
+}
